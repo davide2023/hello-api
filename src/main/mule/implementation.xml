@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="implementationFlow" doc:id="e89428b9-8c17-4971-8bc3-ccce997a2623" >
+		<set-payload value="Hello nasser" doc:name="Set Payload" doc:id="9f7e8716-c619-4006-90eb-551f86d9dee6" />
+	</flow>
+</mule>

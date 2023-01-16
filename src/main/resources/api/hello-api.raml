@@ -1,0 +1,23 @@
+#%RAML 1.0
+title: Hello API
+description: This is a Hello captain Nasser API for the training
+
+/hellocaptain:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            type:
+              {
+                type: "object",
+                "properties": {
+                  "message": {
+                    "type": "string"
+                  }
+                }
+              }
+            example:
+                {
+                  message: "Hello captain Nasser"
+                }
